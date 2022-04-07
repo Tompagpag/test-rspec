@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :post do
-    sequence(:name) { |i| "Titre #{i}" }
+    name { "Test" }
     comments_count { 0 }
   end
 end
